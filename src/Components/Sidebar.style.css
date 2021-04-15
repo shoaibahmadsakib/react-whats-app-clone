@@ -1,0 +1,46 @@
+.sidebar {
+  flex: 0.35;
+}
+.sidebar-header {
+  display: flex;
+  padding: 10px;
+  background: #e9eeee;
+  justify-content: space-between;
+  border-right: 1px solid;
+}
+.sidebar-headerRigh {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+.sidebar-search {
+  display: flex;
+  background-color: #eeeee0;
+  padding: 20px;
+  justify-content: center;
+
+}
+.search-area{
+  background-color: white;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 10px;
+  flex: 1;
+
+}
+.search-area>input{
+  border: none;
+  
+  text-align: center;
+}
+.search-area>input:focus{
+  outline: none;
+}
+.sidebar-chats {
+  background-color: white;
+
+  overflow-y:scroll;
+
+  height: 70vh;
+}

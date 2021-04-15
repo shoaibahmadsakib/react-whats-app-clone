@@ -1,0 +1,37 @@
+[debug] [2021-04-15T23:17:21.285Z] ----------------------------------------------------------------------
+[debug] [2021-04-15T23:17:21.287Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-04-15T23:17:21.287Z] CLI Version:   9.10.0
+[debug] [2021-04-15T23:17:21.287Z] Platform:      win32
+[debug] [2021-04-15T23:17:21.287Z] Node Version:  v15.12.0
+[debug] [2021-04-15T23:17:21.288Z] Time:          Fri Apr 16 2021 05:17:21 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-04-15T23:17:21.289Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-15T23:17:21.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-15T23:17:21.297Z] > authorizing via signed-in user (shoaibahmadsakib@gmail.com)
+[debug] [2021-04-15T23:17:21.297Z] [iam] checking project what-s-app-clone-a5fb4 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-04-15T23:17:21.300Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-04-15T23:17:21.300Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-15T23:17:21.600Z] <<< HTTP RESPONSE 200 {"date":"Thu, 15 Apr 2021 23:17:21 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-15T23:17:21.630Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/what-s-app-clone-a5fb4:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-04-15T23:17:23.095Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 15 Apr 2021 23:17:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1144","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-15T23:17:23.096Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/what-s-app-clone-a5fb4/serviceAccounts/what-s-app-clone-a5fb4@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2021-04-15T23:17:24.782Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 15 Apr 2021 23:17:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-15T23:17:24.788Z] > refreshing access token with scopes: []
+[debug] [2021-04-15T23:17:24.789Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-15T23:17:25.037Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 15 Apr 2021 23:17:25 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-15T23:17:25.083Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/what-s-app-clone-a5fb4 [none]
+[debug] [2021-04-15T23:17:25.679Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/what-s-app-clone-a5fb4 200
+[debug] [2021-04-15T23:17:25.679Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/what-s-app-clone-a5fb4 {"projectId":"what-s-app-clone-a5fb4","projectNumber":"443536071757","displayName":"what's app clone","name":"projects/what-s-app-clone-a5fb4","resources":{"hostingSite":"what-s-app-clone-a5fb4","realtimeDatabaseInstance":"what-s-app-clone-a5fb4-default-rtdb","storageBucket":"what-s-app-clone-a5fb4.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[debug] [2021-04-15T23:17:25.947Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:329:5)
+    at validateString (node:internal/validators:129:11)
+    at Object.join (node:path:397:7)
+    at Object.checkFunctionsSDKVersion [as fn] (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\checkFirebaseSDKVersion.js:34:28)
+    at C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:169:30
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+[error] 
+[error] Error: An unexpected error has occurred.

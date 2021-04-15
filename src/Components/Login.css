@@ -1,0 +1,38 @@
+.login{
+   box-shadow:0px -1px 8px -1px rgba(87,87,87,0.97);
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+login-text>h1{
+    font-weight: bold;
+}
+.login-container{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    place-content: center;
+    line-height: 78px;
+
+}
+.login-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 42px;
+    align-items: center;
+}
+.login-text>button{
+    background-color: rgb(19, 172, 52);
+    width: 200px;
+    color: white;
+}
+.login-text>button:hover{
+    color: black;
+    background-color:rgb(107, 233, 134);
+   
+}
